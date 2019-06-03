@@ -56,9 +56,9 @@ title('after summation x_{tr}')
 %% block 4
 h=zeros(1,length(t));
 h(1)=0.5;
-h(fs*(1.5+1))=0.4;
-h(fs*(2.5+1))=0.3;
-h(fs*(3+1))=0.3;
+h(fs*1.5+1)=0.4;
+h(fs*2.5+1)=0.3;
+h(fs*3+1)=0.3;
 figure(7)
 plot(t,h)
 title('channel impulse response h(t)')
